@@ -82,17 +82,15 @@ VacanSee/
 ├── script.js                  # Core business logic, routing & storage
 ├── classroom.jpg              # High-resolution campus hero image
 ├── PROJECT_REPORT.md          # Comprehensive academic project report (ER diagrams, SQL, Viva notes)
-├── PROJECT_DOCUMENTATION.md   # Technical viva reference & code walkthrough
 ├── README.md                  # Project overview & documentation
 └── .gitignore                 # Git ignore rules for clean repository
 ```
 
 ---
 
-## 📄 Academic Documentation
+## 📄 Academic Project Report
 
 - 📘 **[PROJECT_REPORT.md](./PROJECT_REPORT.md)**: Full academic project report designed for faculty evaluation, covering system requirements, relational database design (PostgreSQL ER diagram), concurrency control, WCAG accessibility, and full-stack architecture.
-- 📙 **[PROJECT_DOCUMENTATION.md](./PROJECT_DOCUMENTATION.md)**: Technical viva guide explaining each JavaScript module, function logic, and design decisions.
 
 ---
 
