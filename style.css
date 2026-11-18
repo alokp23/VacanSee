@@ -465,7 +465,6 @@ a {
 .dock-menu-footer a:hover {
   color: var(--brand);
 }
-}
 
 #landing {
   min-height: 100vh;

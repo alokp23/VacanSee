@@ -1,0 +1,6 @@
+/* Existing VacanSee design system and styles */
+@import "./styles/vacansee.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
