@@ -66,6 +66,22 @@ html {
   scroll-padding-top: 76px;
 }
 
+/* Universal scrollbar removal: hide scrollbar completely across all pages and views */
+html,
+body,
+#root,
+* {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
 html:has(#landing),
 body:has(#landing),
 #landing,
@@ -74,17 +90,6 @@ body:has(#landing),
   height: 100% !important;
   max-height: 100vh !important;
   max-height: 100dvh !important;
-  scrollbar-width: none !important;
-  -ms-overflow-style: none !important;
-}
-
-html:has(#landing)::-webkit-scrollbar,
-body:has(#landing)::-webkit-scrollbar,
-#landing::-webkit-scrollbar,
-#landing *::-webkit-scrollbar {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
 }
 
 body {
